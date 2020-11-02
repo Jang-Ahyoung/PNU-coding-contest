@@ -1,3 +1,153 @@
+body{
+  background-color:lavender;
+  
+}
+
+
+a{
+  text-decoration : none;
+  /* color:white; */
+}
+
+.Navbar{
+  Height:50px;
+  background-color: white;
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-right: 50px;
+  padding : 8px 12px;
+}
+.Navbar_Logo{
+  display:flex;
+  align-items: center;
+  /* flex-direction: column; */
+ 
+}
+
+.Navbar_Side Button{
+  font-size: 10spx;
+  border-radius: 7px;
+  margin-left: 5px;
+  /* width:10px; */
+}
+
+
+.Navbar_Logo a{
+  margin-left: 15px;
+  font-size: 35px;
+  font-family: Arial, monospace;
+}
+.Language_set{
+  display:flex;
+  align-items: center;
+}
+.Theme_set{
+  display:flex;
+  align-items: center;
+}
+.code_Block{
+  display:flex;
+  /* width:50%; */
+  justify-content:space-between;
+  padding : 0px 12px;
+  
+  /* margin:50px; */
+}
+
+.code_subject{
+  font-size:22px;
+}
+
+
+.Big_Body{
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.FormControlLabel *{
+  margin-left: 0px;
+}
+.space_Left{
+  width:50%;
+}
+.side1{
+  display: flex;
+  flex-direction: column;
+  /* width:12px;
+  margin-left: 17px; */
+
+}
+.side_Icons{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding-left:0;
+
+}
+
+.CodeMirror *{
+    /* font-family: Arial, monospace; */
+    font-size: 20px;
+    margin-top: 1px;
+    padding: 0px 2px;
+    
+    
+  }
+.Navbar_Side{
+  display:flex;
+  align-items: center;
+}
+.FormControlLabel{
+  padding: 10px 20px
+  /* margin:0px; */
+}
+.mirror{
+  display: flex;
+  padding : 8px 12px;
+  padding-left: 0px;
+  /* width:50%; */
+  /* padding-right: ; */
+}
+
+.FavoriteBorder{
+  padding:8px 15px;
+}
+.space_Left{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 5px;
+  
+  
+}
+.result{
+background-color: white;
+border-radius: 12px;
+height:70%;
+margin-bottom: 15px;
+
+
+}
+
+.hint{
+  height:30%;
+  width:100%;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
