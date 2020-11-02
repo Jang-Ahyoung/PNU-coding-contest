@@ -76,7 +76,7 @@ function App() {
             <header className='Navbar'>
                 <div className='Navbar_Logo'>
                     <AcUnitIcon style={{ fontSize: 50 }} color="primary" ></AcUnitIcon>
-                    <a href="" ><b>PNU Coding Academy</b></a>
+                    <a href="" ><b>PNU Coding Academy 안녕 ㅎㅎ</b></a>
 
                 </div>
                 <div className='Navbar_Side'>
