@@ -6,16 +6,20 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
+
+
 const useStyles = makeStyles((theme) => ({
+
     formControl: {
         margin: theme.spacing(1),
-        minWidth: 120,
+        minWidth: 75,
+        paddingTop: 0,
+
     },
     selectEmpty: {
-        marginTop: theme.spacing(2),
+        marginTop: theme.spacing(0),
     },
 }));
-
 export default function SimpleSelect() {
     const classes = useStyles();
     const [age, setAge] = React.useState('');
@@ -24,25 +28,22 @@ export default function SimpleSelect() {
         setAge(event.target.value);
     };
 
+
     return (
         <div>
-
-
             <FormControl variant="outlined" className={classes.formControl}>
-                <InputLabel id="demo-simple-select-outlined-label">Languages</InputLabel>
+                <InputLabel id="demo-simple-select-outlined-label">언어</InputLabel>
                 <Select
                     labelId="demo-simple-select-outlined-label"
                     id="demo-simple-select-outlined"
                     value={age}
                     onChange={handleChange}
-                    label="Languages"
+                    label="언어"
                 >
-                    {/* <MenuItem value="">
-                        <em>c++</em>
-                    </MenuItem> */}
                     <MenuItem value={10}>C++</MenuItem>
                     <MenuItem value={20}>Python</MenuItem>
                     <MenuItem value={30}>JAVA</MenuItem>
+
                 </Select>
             </FormControl>
 

@@ -5,7 +5,6 @@ import Snackbar from '@material-ui/core/Snackbar';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
-// import config from '../../config'
 
 export default function SimpleSnackbar() {
     const [open, setOpen] = React.useState(false);
@@ -18,22 +17,13 @@ export default function SimpleSnackbar() {
         if (reason === 'clickaway') {
             return;
         }
-
         setOpen(false);
     };
 
 
-
-
     const id = 10000;
     const [codeSave, setCodeSave] = useCookies([`user_code/${id}`]);
-    // const [cookies, setCookies, removeCookies] = useCookies(["access_token"]);
     const [code, setCode] = useState("const a = 0;");
-    // const { id } = useParams();
-
-    // const dispatch = useDispatch();
-    // const height = "500px";
-    // const width = "50%";
 
     const submitUserCode = () => {
         setCodeSave(`user_code/${id}`, code, {
