@@ -52,27 +52,6 @@ export default function SimpleSnackbar() {
             });
     };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return (
         <div>
             <Button onClick={handleClick} onClick={submitUserCode} >SUBMIT</Button>
